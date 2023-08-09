@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form{
+    margin-left: 100px;
+}
+
+table{
+    border-collapse: collapse;
+    margin-top: 100px;
+
+}
+table tr td{
+    padding: 10px;
+}
+
+tbody tr td:first-child{
+    font-size: 18px;
+}
+
+input{
+    padding: 5px 10px ;
+    font-size: 19px;
+}
+
+.heading{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.button-td{
+    text-align: center;
+}
+
+button{
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.table-php tr,
+.table-php tr th,
+.table-php tr td
+{
+    border: 1px solid grey;
+}
+
+.table-php tr th{
+    padding: 10px 10px;
+}
+
+.table-php{
+    text-align: center;
+}
